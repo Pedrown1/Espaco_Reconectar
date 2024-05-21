@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(222, 184, 135, 1) 72%,
+    rgba(162, 130, 89, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* HEADER */
+
+.cabecalho-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin: 0 20px;
+}
+
+.cabecalho-header img {
+  width: 100px;
+  padding: 5px;
+}
+
+.agendamentos {
+  font-weight: 500;
+  font-style: italic;
+  text-shadow: 2px 2px 10px #000;
+  color: #fff;
+  border-radius: 25px;
+  border: 1px solid #00000093;
+  padding: 8px;
+  background: rgb(218, 138, 134);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/*MAIN*/
+
+.titulo-main {
+  text-align: center;
+  margin: 20px 0;
+  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.842);
+}
+
+#container {
+  display: flex;
+}
+
+.sobre {
+  width: 80%;
+}
+
+/* FORMULARIO */
+
+.caixa {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 15px;
+  margin: 10px 10px 0px 0px;
+  height: max-content;
+}
+
+fieldset {
+  border: 3px solid rgb(235, 144, 139);
+  border-radius: 7px;
+  padding: 8px;
+}
+
+legend {
+  border: 1px solid rgb(235, 144, 139);
+  background-image: linear-gradient(
+    to right,
+    rgb(235, 144, 139),
+    rgb(172, 107, 104)
+  );
+  text-align: center;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.caixa-de-entrada {
+  position: relative;
+}
+
+.usuario-de-entrada {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  color: #fff;
+  font-size: 15px;
+  width: 90%;
+  letter-spacing: 1px;
+}
+
+.labelInput {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.usuario-de-entrada:focus ~ .labelInput,
+.usuario-de-entrada:valid ~ .labelInput {
+  top: -20px;
+  font-size: 14px;
+  color: rgb(235, 144, 139);
+}
+
+.title_box_form {
+  margin-top: 20px;
+}
+
+#data_agendamento {
+  padding: 3px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+  margin-top: 10px;
+  color: #fff;
+
+  border: 1px solid rgb(172, 107, 104);
+  background-color: rgb(235, 144, 139);
+}
+
+.select {
+  margin-top: 15px;
+}
+
+.select select {
+  margin-left: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid rgb(172, 107, 104);
+  background-color: rgb(235, 144, 139);
+  color: #fff;
+}
+
+.Deixe-Seu-Recado {
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+}
+
+#recado {
+  border: 1px solid rgb(172, 107, 104);
+  border-radius: 20px;
+  background-color: rgb(248, 213, 213);
+  font-size: 15px;
+  outline: none;
+  margin-top: 10px;
+}
+
+.opc {
+  font-size: 13px;
+}
+
+#update,
+#submit {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: #fff;
+  background-image: linear-gradient(
+    to right,
+    rgb(235, 144, 139),
+    rgb(172, 107, 104)
+  );
+}
+
+#update:hover,
+#submit:hover {
+  background-image: linear-gradient(to right, #c27b78, rgb(192, 126, 123));
+}
+
+/*-------------------//--------------------------------------------//-------------------------*/
+
+.content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/*.content img {
+  border-radius: 50%;
+}*/
+
+.content img {
+  width: 250px;
+  float: left; /* Flutua a imagem à esquerda */
+  border-radius: 10px;
+  /*background-color: #c27b78;
+  border-top: 3px groove #000000e1;
+  border-bottom: 3px groove #000000e1;
+  border-left: 3px groove rgb(235, 144, 139);
+  border-right: 3px groove rgb(235, 144, 139);*/
+  /*border: 3px groove rgb(235, 144, 139);*/
+  padding: 2px;
+  margin: 0px 8px;
+}
+
+.content p {
+  text-align: justify; /* Justifica o texto */
+  padding: 8px;
+}
+
+/*--------------------------//--------------Cards - Planos------------------------//---------------------*/
+
+.container-card {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 1.5);
+  background-color: #e0cccc;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.list-noOrdem li {
+  margin-left: 20px;
+}
+
+.desc-preco {
+  margin-top: 10px;
+}
+
+.card h3 {
+  font-size: 18px;
+  color: rgb(92, 92, 92);
+  margin-bottom: 20px;
+}
+
+.btn-plano {
+  background-image: linear-gradient(
+    to right,
+    rgb(235, 144, 139),
+    rgb(172, 107, 104)
+  );
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-plano:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(172, 107, 104),
+    rgb(235, 144, 139)
+  );
+}
+
+/*
+.titulo {
+  text-align: center;
+  font-style: italic;
+  margin: 5px 0 20px;
+  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.842);
+  cursor: default;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  text-align: center;
+  padding: 0 8px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.card-unitario {
+  background-color: #e0cccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 8px;
+  border-radius: 20px;
+  width: 25%;
+}
+
+.card-unitario h3 {
+  text-align: center;
+}
+
+.card-unitario img {
+  justify-content: center;
+  width: 200px;
+}
+
+.card-unitario p {
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.valor {
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+*/
+/*-----------------------------------------------------Rodapé------------------------------------------------------------------------*/
+
+/* FOOTER */
+
+#footerATT {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#footerATT img.logo-footer {
+  width: 80px;
+  border-radius: 50%;
+}
+
+#footerATT.info {
+  padding: 10px;
+}
+
+#footerATT span {
+  cursor: default;
+  font-weight: bold;
+}
+
+#footerATT .contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#footerATT .copy {
+  text-shadow: 1px 1px 3px #fff;
+  margin-top: 8px;
+  font-style: italic;
+  cursor: default;
+}
+
+.error-message {
+  text-align: center; 
+  justify-content: center;
+  font-weight: bold; 
+  font-size: 16px; 
+}
+
+.error-message span{
+  color: red; 
+}

@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(222, 184, 135, 1) 72%,
+    rgba(162, 130, 89, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* HEADER */
+
+header.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 50px;
+  height: 120px;
+  font-size: 100%;
+}
+
+header img.logo-imagem {
+  width: 140px;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+header ul {
+  display: flex;
+  gap: 10px;
+}
+
+header li {
+  list-style-type: none;
+}
+
+header a.cabecalho-menu-item:hover {
+  color: black;
+  transition: 0.5s all ease-in-out;
+  text-shadow: 2px 2px 10px rgb(223, 218, 218);
+}
+
+header a.cabecalho-menu-item img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+header a.cabecalho-menu-item img:hover {
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 10px rgb(0, 0, 0);
+  transform: scale(1.03);
+  transition: 0.4s all ease-in-out;
+}
+
+/*------------------------------------------------Main Principal----------------------------------------------------------------*/
+
+.home-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 27px 0;
+}
+
+.info {
+  width: 50%;
+  text-align: center;
+  padding-left: 10px;
+}
+
+.titulo-main {
+  font-size: 4em;
+  text-shadow: 2px 2px 4px #fff;
+  line-height: 1;
+}
+
+.welcome {
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.logo-imagem-main {
+  width: 430px;
+  border-radius: 60px;
+  box-shadow: 4px 4px 5px #00000091;
+  border: 1px solid #00000059;
+}
+
+.logo-imagem-main {
+  width: 430px;
+  border-radius: 60px;
+  box-shadow: 4px 4px 5px #00000091;
+  border: 1px solid #00000059;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.header-entrar {
+  font-weight: 500;
+  font-style: italic;
+  text-shadow: 2px 2px 10px #000;
+  color: #fff;
+  border-radius: 25px;
+  border: 1px solid #00000093;
+  padding: 8px;
+  background: rgb(218, 138, 134);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.header-entrar:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(235, 144, 139),
+    rgb(172, 107, 104)
+  );
+  transition: 1s all ease-in-out;
+}
+
+/*-------------------------------------------------------Psicologas----------------------------------------------------------------*/
+
+.titulo {
+  text-align: center;
+  font-style: italic;
+  margin: 5px 0 20px;
+  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.842);
+  cursor: default;
+  flex-wrap: wrap;
+}
+
+.section-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  padding: 0px 15px;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 20px;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  background-color: #e0cccc;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.842);
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s all ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  cursor: default;
+}
+
+.card p {
+  color: #666;
+  margin-bottom: 15px;
+  cursor: default;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-image: linear-gradient(
+    to right,
+    rgb(194, 123, 120),
+    rgb(192, 126, 123)
+  );
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-image 0.7s ease-in-out;
+  border: none;
+}
+
+.button:hover {
+  background-image: linear-gradient(to right, #975b56, #a06e62);
+}
+
+/*-----------------------------------------------------Quem somos nos?--------------------------------------------------------------*/
+
+.content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.content img {
+  width: 180px;
+  float: left; /* Flutua a imagem à esquerda */
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.content p {
+  text-align: justify; /* Justifica o texto */
+}
+
+/*-----------------------------------------------------Rodapé------------------------------------------------------------------------*/
+
+/* FOOTER */
+
+#footerATT {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#footerATT img.logo-footer {
+  width: 80px;
+  border-radius: 50%;
+}
+
+#footerATT.info {
+  padding: 10px;
+}
+
+#footerATT span {
+  cursor: default;
+  font-weight: bold;
+}
+
+#footerATT .contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#footerATT .copy {
+  text-shadow: 1px 1px 3px #fff;
+  margin-top: 8px;
+  font-style: italic;
+  cursor: default;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 636px) {
+  /* Estilos para telas menores aqui */
+  body {
+    font-size: 90%; /* Reduz a fonte para telas menores */
+  }
+
+  header.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 50px;
+    height: 120px;
+    font-size: 100%;
+  }
+
+  header img.logo-imagem {
+    width: 120px;
+  }
+
+  header .lista-não-ordenada {
+    display: none;
+  }
+
+  /* ... (outras modificações necessárias) */
+}

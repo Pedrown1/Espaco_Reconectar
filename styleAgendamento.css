@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(222, 184, 135, 1) 72%,
+    rgba(162, 130, 89, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* HEADER */
+
+header.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 50px;
+  height: 120px;
+  font-size: 100%;
+}
+
+header img.logo-imagem {
+  width: 140px;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.btns {
+  display: flex;
+  gap: 30px;
+}
+
+.btn-agendar {
+  font-weight: 500;
+  font-style: italic;
+  text-shadow: 2px 2px 10px #000;
+  border-radius: 25px;
+  border: 1px solid #00000093;
+  padding: 8px;
+  background: rgb(218, 138, 134);
+  font-size: 18px;
+}
+
+.btn-agendar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-agendar:hover {
+  background-image: linear-gradient(to right, #c27b78, rgb(192, 126, 123));
+}
+
+.btn-agendar a:hover {
+  color: #fff;
+}
+
+/*AGENDAMENTOS - MAIN*/
+
+.table-bg {
+  background-color: rgba(0, 0, 0, 0.298);
+  border-radius: 15px 15px 0px 0px;
+}
+
+.lapis,
+.btn-search {
+  background-image: linear-gradient(to right, #c27b78, rgb(192, 126, 123));
+}
+
+.lapis:hover,
+.btn-search:hover {
+  background-image: linear-gradient(to right, #805252, rgb(124, 84, 81));
+}
+
+.box-serach {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.1%;
+}
