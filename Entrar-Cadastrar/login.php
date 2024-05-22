@@ -35,10 +35,7 @@
             <i class="fas fa-envelope iEmail"></i>
             <input type="password" name="senha" placeholder="Senha" required />
             <i class="fas fa-lock iPassword"></i>
-            <!--<div class="divCheck">
-              <input type="checkbox" />
-              <span>Lembrar Senha</span>
-            </div>-->
+            
             <input type="submit" name="submit" class="allbtn" value="Entrar" style="background-image: linear-gradient(
                 to right,
                 rgb(235, 144, 139),

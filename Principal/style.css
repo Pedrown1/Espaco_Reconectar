@@ -224,13 +224,13 @@ header a.cabecalho-menu-item img:hover {
 
 .content img {
   width: 180px;
-  float: left; /* Flutua a imagem à esquerda */
+  float: left; 
   margin-right: 20px;
   border-radius: 5px;
 }
 
 .content p {
-  text-align: justify; /* Justifica o texto */
+  text-align: justify; 
 }
 
 /*-----------------------------------------------------Rodapé------------------------------------------------------------------------*/
@@ -275,7 +275,7 @@ header a.cabecalho-menu-item img:hover {
 @media screen and (max-width: 636px) {
   /* Estilos para telas menores aqui */
   body {
-    font-size: 90%; /* Reduz a fonte para telas menores */
+    font-size: 90%; 
   }
 
   header.cabecalho {

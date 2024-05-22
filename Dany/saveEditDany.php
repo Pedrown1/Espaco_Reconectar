@@ -12,7 +12,6 @@ if (isset($_POST['update'])) {
     $plano = $_POST['plano'];
     $recado = $_POST['recado'];
 
-    // Ajusta a consulta para ignorar o próprio registro ao verificar a disponibilidade
     $consulta = "SELECT COUNT(*) AS registro FROM agendamentos_dany WHERE horario = '$horario' AND data_agendamento = '$data_agendamento' AND id_agendamentoDany != '$id_agendamentoDany'";
     $resultado = mysqli_query($conexao, $consulta);
 
@@ -42,7 +41,7 @@ if (isset($_POST['update'])) {
             $result = $conexao->query($sqlUpdate);
 
             header('location: AgendamentoDany.php');
-            exit; // Para interromper a execução do código após o redirecionamento
+            exit; 
         }
     } else {
         echo "Erro ao executar a consulta: " . mysqli_error($conexao);

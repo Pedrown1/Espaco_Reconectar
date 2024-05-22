@@ -1,6 +1,5 @@
 <?php
   session_start();
-  //print_r($_SESSION);
   if((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true))
   {
     unset($_SESSION['email']);
@@ -24,22 +23,6 @@
           color: white;
           text-align: center;
         }
-
-       /*  a{
-          color: #000;
-          text-decoration: none;
-
-          border: 1px solid #000;
-          padding: 5px;
-          border-radius: 15px;
-        }
-
-        .divisao-btn{
-          display: flex;
-          justify-content: center;
-          gap: 50px;
-          
-        }*/
 </style>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">

@@ -23,12 +23,6 @@
         
         <nav class="cabecalho-menu">
 
-          <!--<div class="icone-mobile">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-justify" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
-            </svg>
-          </div>-->
-
           <ul class="lista-não-ordenada">
             <li><a href="#psicologas" class="cabecalho-menu-item"><img src="../img/PsicologasOFC.png" alt="Psicologas">
             </a></li>
@@ -88,17 +82,6 @@
                 }
             ?>
             
-
-
-          <!-- <div class="login"> 
-              <div>
-                <a href="../entrar-cadastrar/login.php" class="header-entrar">Entrar</a>
-              </div>
-      
-              <div>
-                <a href="../Entrar-Cadastrar/cadastro.php" class="header-entrar">Registrar</a>
-              </div>
-            </div>-->
             </div>
           <div>
             <img class="logo-imagem-main" src="../img/Img-espaco.jpeg" alt="Foto da Clinica">

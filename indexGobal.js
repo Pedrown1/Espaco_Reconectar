@@ -10,6 +10,9 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
 });
 
+
+
+/* Mascara Telefone */
 $(document).ready(function () {
   $("#telefone").val("(XX) XXXXX-XXXX");
   VMasker(document.getElementById("telefone")).maskPattern("(99) 99999-9999");

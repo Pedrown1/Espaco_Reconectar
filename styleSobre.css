@@ -154,7 +154,6 @@ legend {
 .Deixe-Seu-Recado {
   display: flex;
   flex-direction: column;
-  /*align-items: center;*/
 }
 
 #recado {
@@ -198,26 +197,16 @@ legend {
   margin: 0 auto;
 }
 
-/*.content img {
-  border-radius: 50%;
-}*/
-
 .content img {
   width: 250px;
-  float: left; /* Flutua a imagem à esquerda */
+  float: left; 
   border-radius: 10px;
-  /*background-color: #c27b78;
-  border-top: 3px groove #000000e1;
-  border-bottom: 3px groove #000000e1;
-  border-left: 3px groove rgb(235, 144, 139);
-  border-right: 3px groove rgb(235, 144, 139);*/
-  /*border: 3px groove rgb(235, 144, 139);*/
   padding: 2px;
   margin: 0px 8px;
 }
 
 .content p {
-  text-align: justify; /* Justifica o texto */
+  text-align: justify; 
   padding: 8px;
 }
 
@@ -283,56 +272,6 @@ legend {
   );
 }
 
-/*
-.titulo {
-  text-align: center;
-  font-style: italic;
-  margin: 5px 0 20px;
-  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.842);
-  cursor: default;
-}
-
-.cards {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 70px;
-  text-align: center;
-  padding: 0 8px;
-  width: 100%;
-  margin-bottom: 40px;
-}
-
-.card-unitario {
-  background-color: #e0cccc;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px 8px;
-  border-radius: 20px;
-  width: 25%;
-}
-
-.card-unitario h3 {
-  text-align: center;
-}
-
-.card-unitario img {
-  justify-content: center;
-  width: 200px;
-}
-
-.card-unitario p {
-  width: 80%;
-  margin-bottom: 10px;
-}
-
-.valor {
-  border: 1px solid #000;
-  border-radius: 20px;
-  padding: 5px 10px;
-}
-*/
 /*-----------------------------------------------------Rodapé------------------------------------------------------------------------*/
 
 /* FOOTER */
