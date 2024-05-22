@@ -203,7 +203,7 @@
                 >Horários:</label
               >
 
-                <select name="horario" id="horario">
+                <select name="horario" id="horario" required>
                     <option value="" disabled selected>Selecione</option>
                     <option value="08:00:00">08:00</option>
                     <option value="09:00:00">09:00</option>
