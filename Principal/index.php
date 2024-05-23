@@ -107,7 +107,7 @@
               />
               <h2>Dany Queiroz</h2>
               <p>
-              Guiando para autoconsciência, saúde mental.
+              Modificando pensamentos, melhorando comportamentos.
               </p>
               <?php
                 if (isset($_SESSION['email']) && isset($_SESSION['senha'])) {
@@ -135,7 +135,7 @@
               <h2>Natália Silva</h2>
               
               <p>
-              Guiando para autoconsciência, saúde mental.
+              Explorando o inconsciente, buscando compreensão.
               </p>
 
               <?php
@@ -164,7 +164,7 @@
               />
               <h2>Eliana Maria</h2>
               <p>
-              Guiando para autoconsciência, saúde mental.
+              Focando no presente, promovendo a totalidade.
               </p>
               
             <?php

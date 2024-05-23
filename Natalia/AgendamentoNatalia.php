@@ -39,9 +39,7 @@ if ($logado == 'sup@gmail.com') {
 }
 
 $result = $conexao->query($sql);
-
 ?>
-
 
 <!DOCTYPE html>
 <html lang="pt-br">
