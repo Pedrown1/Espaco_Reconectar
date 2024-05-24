@@ -12,12 +12,6 @@ $logado = $_SESSION['email'];
 
 if ($logado == 'sup@gmail.com') {
   
-  $sql_retroativo = "UPDATE agendamentos_natalia 
-                       SET recado = 'Retroativa' 
-                       WHERE data_agendamento < CURDATE() 
-                       AND (recado IS NULL OR recado != 'Retroativa')";
-
-    $conexao->query($sql_retroativo);
     if (!empty($_GET['search'])) {
         $data = $_GET['search'];
         $sql = "SELECT * FROM agendamentos_natalia 
@@ -39,6 +33,12 @@ if ($logado == 'sup@gmail.com') {
 }
 
 $result = $conexao->query($sql);
+
+$sql_retroativo = "UPDATE agendamentos_natalia 
+                       SET recado = 'Retroativa' 
+                       WHERE data_agendamento < CURDATE() 
+                       AND (recado IS NULL OR recado != 'Retroativa')";
+    $conexao->query($sql_retroativo);
 ?>
 
 <!DOCTYPE html>
