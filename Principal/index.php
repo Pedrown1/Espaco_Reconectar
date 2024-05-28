@@ -67,9 +67,9 @@
                 if (isset($_SESSION['email']) && isset($_SESSION['senha'])) {
                     $logado = $_SESSION['email'];
                     $nomeUsu = strstr($logado, '@', true);  
-                    echo "<p style='border: 1px solid #000; border-radius: 15px; padding: 8px; width: fit-content; margin: 0 auto; box-shadow: 2px 1px 8px #000; cursor: default;'>" . $nomeUsu . "</p>";
+                    echo "<p style='border: 1px solid #000; border-radius: 15px; padding: 8px; width: fit-content; margin: 0 auto; box-shadow: 2px 1px 8px #000; cursor: default;'>" . ucfirst($nomeUsu) . "</p>";
                     echo "<br>";
-                    echo "<a href='../Entrar-Cadastrar/sair.php' class='btn btn-danger me-5'>Sair</a>";
+                    echo "<a href='../Entrar-Cadastrar/sair.php' class='btn btn-danger me-5' style='font-size: 1.2rem; font-weight: bold; color: #dc3545; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.842); border-radius: 5px; padding: 5px'>Sair</a>";
                 } else {
                     echo "<div class='login'> 
                                 <div>
