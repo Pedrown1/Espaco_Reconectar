@@ -1,5 +1,5 @@
 <?php
-include_once('config.php');
+include_once('../config.php');
 
 if (isset($_POST['update'])) {
     $id_agendamentoNatalia = $_POST['id']; 

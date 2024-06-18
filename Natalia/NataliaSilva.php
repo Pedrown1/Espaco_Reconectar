@@ -2,7 +2,7 @@
       session_start();
       if(isset($_POST['submit']))
       {
-          include_once('config.php');
+          include_once('../config.php');
 
           $nome = mysqli_real_escape_string($conexao, $_POST['nome']);
           $email = mysqli_real_escape_string($conexao, $_POST['email']);

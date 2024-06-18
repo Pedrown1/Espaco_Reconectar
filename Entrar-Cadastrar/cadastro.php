@@ -1,13 +1,12 @@
 <?php
 $returnCriada = '';
 if (isset($_POST['submit'])) {
-    include_once('config.php');
+    include_once('../config.php');
 
     $email = mysqli_real_escape_string($conexao, $_POST['email']);
     $senha = mysqli_real_escape_string($conexao, $_POST['senha']);
     $confirmarSenha = mysqli_real_escape_string($conexao, $_POST['confirmarSenha']);
 
-    // Verifica se o email já existe
     $verifica_email = mysqli_query($conexao, "SELECT * FROM usuario_cadastrar WHERE email = '$email'");
 
     if (mysqli_num_rows($verifica_email) > 0) {
@@ -17,10 +16,8 @@ if (isset($_POST['submit'])) {
     } elseif ($senha != $confirmarSenha) {
         $mensagemErroCad = 'As senhas devem ser <b>iguais!</b>';
     } else {
-        // Criptografar a senha antes de armazenar
         $senhaHash = password_hash($senha, PASSWORD_BCRYPT);
 
-        // Inserir os dados no banco de dados
         $result = mysqli_query($conexao, "INSERT INTO usuario_cadastrar (email, senha, confirmarSenha) VALUES ('$email', '$senhaHash', '$confirmarSenha')");
 
         if ($result) {
