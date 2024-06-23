@@ -249,7 +249,7 @@
 
   <div class="card">
     <h2 class="titulo-plano">Plano Básico</h2>
-    <p  class="desc-plano"> Ideal para quem busca um suporte mais abrangente para lidar com desafios e melhorar sua saúde mental.</p>
+    <p  class="desc-plano"> Suporte essencial para quem busca melhorar sua saúde mental de forma acessível.</p>
     <ul class="list-noOrdem">
       <li>1 Consultas</li>
       <li>Online/Presencial</li>
@@ -260,7 +260,7 @@
 
   <div class="card">
     <h2 class="titulo-plano">Plano Intermediário</h2>
-    <p  class="desc-plano"> Ideal para quem busca um suporte mais abrangente para lidar com desafios e melhorar sua saúde mental.</p>
+    <p  class="desc-plano"> Apoio personalizado para lidar com desafios e promover o bem-estar mental.</p>
     <ul class="list-noOrdem">
       <li>2 Consultas</li>
       <li>Online/Presencial</li>
@@ -272,7 +272,7 @@
 
   <div class="card">
     <h2 class="titulo-plano">Plano Premium</h2>
-    <p  class="desc-plano"> Ideal para quem busca um suporte mais abrangente para lidar com desafios e melhorar sua saúde mental.</p>
+    <p  class="desc-plano"> Experiência completa para buscar cuidado abrangente e eficaz na saúde mental.</p>
     <ul class="list-noOrdem">
       <li>4 Consultas</li>
       <li>Online/Presencial</li>

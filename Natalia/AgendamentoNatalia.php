@@ -102,7 +102,7 @@ $sql_retroativo = "UPDATE agendamentos_natalia
       <th scope="col" style="text-align: center;">Data Agendamento</th>
       <th scope="col" style="text-align: center;" >&nbsp;&nbsp;&nbsp;&nbsp;Horario</th>
       <th scope="col" style="text-align: center;">&nbsp;&nbsp;&nbsp;&nbsp;Plano</th>
-      <th scope="col" center;>&nbsp;&nbsp;&nbsp;&nbsp; Recado</th>
+      <th scope="col" style="text-align: center;">&nbsp;&nbsp;&nbsp;&nbsp;Recado</th>
       <th scope="col" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ações</th>
     </tr>
   </thead>
@@ -116,10 +116,15 @@ $sql_retroativo = "UPDATE agendamentos_natalia
         echo "<td style='text-align: center;'>" . $user_data['email'] . "</td>";
           echo "<td style='text-align: center;'>" . $user_data['telefone'] . "</td>";
           echo "<td style='text-align: center;'>" . $user_data['sexo'] . "</td>";
-          echo "<td style='text-align: center;'>" . $user_data['data_agendamento'] . "</td>";
-          echo "<td style='text-align: center;'>" . $user_data['horario'] . "</td>";
+          
+          $data_agendamento = date('d/m/Y', strtotime($user_data['data_agendamento']));
+          echo "<td style='text-align: center;'>" . $data_agendamento . "</td>";
+
+          $horario = date('H:i', strtotime($user_data['horario']));
+          echo "<td style='text-align: center;'>" . $horario . "</td>";
+          
           echo "<td style='text-align: center;'>" . $user_data['plano'] . "</td>";
-          echo "<td>  ".$user_data['recado']."  </td>"; 
+          echo "<td style='text-align: center;'>" . $user_data['recado'] . "</td>";
           echo "<td>
                     <a class='btn btn-sm lapis' href='editNatalia.php?id=$user_data[id_agendamentoNatalia]'>
                       <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-pencil text-white' viewBox='0 0 16 16'> .
