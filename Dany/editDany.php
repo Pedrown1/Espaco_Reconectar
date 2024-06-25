@@ -202,15 +202,12 @@
                 <option value="08:00:00" <?php echo $horario == '08:00:00' ? 'selected' : ''; ?>>08:00</option>
                 <option value="09:00:00" <?php echo $horario == '09:00:00' ? 'selected' : ''; ?>>09:00</option>
                 <option value="10:00:00" <?php echo $horario == '10:00:00' ? 'selected' : ''; ?>>10:00</option>
-                <option value="11:00:00" <?php echo $horario == '11:00:00' ? 'selected' : ''; ?>>11:00</option>
-                <option value="12:00:00" <?php echo $horario == '12:00:00' ? 'selected' : ''; ?>>12:00</option>
+                <option value="11:00:00" <?php echo $horario == '11:00:00' ? 'selected' : ''; ?>>11:00</option>                
                 <option value="13:00:00" <?php echo $horario == '13:00:00' ? 'selected' : ''; ?>>13:00</option>
                 <option value="14:00:00" <?php echo $horario == '14:00:00' ? 'selected' : ''; ?>>14:00</option>
                 <option value="15:00:00" <?php echo $horario == '15:00:00' ? 'selected' : ''; ?>>15:00</option>
                 <option value="16:00:00" <?php echo $horario == '16:00:00' ? 'selected' : ''; ?>>16:00</option>
                 <option value="17:00:00" <?php echo $horario == '17:00:00' ? 'selected' : ''; ?>>17:00</option>
-                <option value="18:00:00" <?php echo $horario == '18:00:00' ? 'selected' : ''; ?>>18:00</option>
-                <option value="19:00:00" <?php echo $horario == '19:00:00' ? 'selected' : ''; ?>>19:00</option>
             </select> 
 
 
