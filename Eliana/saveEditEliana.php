@@ -12,7 +12,8 @@ if(isset($_POST['update'])){
     $plano = $_POST['plano'];
     $recado = $_POST['recado'];
 
-    $consulta = "SELECT COUNT(*) AS registro FROM agendamento_lili WHERE horario = '$horario' AND data_agendamento = '$data_agendamento'";
+    $consulta = "SELECT COUNT(*) AS registro FROM agendamento_lili WHERE horario = '$horario' AND data_agendamento = '$data_agendamento' AND id_agendamentolili != '$id_agendamentolili'";
+
     $resultado = mysqli_query($conexao, $consulta);
 
     if ($resultado) {
@@ -26,7 +27,6 @@ if(isset($_POST['update'])){
             $query2 = "INSERT INTO HrsIndisp (msg, liberado, telefone) VALUES('$nome - Horário Indisponível', 'N', '$telefone')";
             $result = mysqli_query($conexao, $query2);
             mysqli_commit($conexao);
-
         } else {
             $sqlUpdate = "UPDATE agendamento_lili
                 SET nome = '$nome',
