@@ -94,7 +94,7 @@
         <section  id="psicologas" class="container">
 
           <div>
-            <h1 class="titulo">Psicólogas</h1>
+            <h1 class="titulo">Selecione sua Psicóloga:</h1>
           </div>
 
           <div class="section-container">
