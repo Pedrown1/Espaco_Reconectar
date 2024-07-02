@@ -50,6 +50,8 @@ header img.logo-imagem {
   padding: 8px;
   background: rgb(218, 138, 134);
   font-size: 18px;
+  width: 120px;
+  text-align: center;
 }
 
 .btn-agendar a {

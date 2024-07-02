@@ -71,9 +71,9 @@ $conexao->query($sql_retroativo);
     </div>
 
     <div class="btns">
-        <div class="btn-agendar">
+        <!-- <div class="btn-agendar">
             <a href="../Dany/Dany.php">Agendar</a>
-        </div>
+        </div> -->
 
         <div class="btn-agendar">
             <a href="../Dany/Dany.php">Voltar</a>

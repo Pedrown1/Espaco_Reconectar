@@ -71,9 +71,9 @@ $sql_retroativo = "UPDATE agendamento_lili
       </div>
 
       <div class="btns">
-        <div class="btn-agendar">
+        <!-- <div class="btn-agendar">
           <a href="../Eliana/Eliana.php">Agendar</a>
-        </div>
+        </div> -->
 
         <div class="btn-agendar">
           <a href="../Eliana/Eliana.php">Voltar</a>
