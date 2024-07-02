@@ -10,7 +10,7 @@ if ((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true
 
 $logado = $_SESSION['email'];
 
-if ($logado == 'sup@gmail.com') {
+if ($logado == 'suplili@gmail.com') {
     if (!empty($_GET['search'])) {
         $data = $_GET['search'];
         $sql = "SELECT * FROM agendamento_lili 
